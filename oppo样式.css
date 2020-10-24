@@ -1,0 +1,266 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.shop::before,
+.shop::after{
+    content: "";
+    display: table;
+}
+.shop::after{
+    clear: both;
+}
+.shop{
+    *zoom:1;
+}
+.w{
+    width: 1348px;
+    margin: 0 auto;
+}
+li{
+    list-style: none;
+}
+body{
+    background-color: #f7f7f7;
+}
+/* 页头 */
+.header{
+    height: 28px;
+    background-color: #009b73;
+}
+.header ul {
+    float: right;
+    margin-right: 83px;
+}
+.header ul li {
+    float: left;
+    line-height: 28px;
+    border-left: 1px solid #46b487;
+}
+.header ul li a{
+    float: left;
+    height: 28px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-decoration: none;
+    color: #ffffff;
+}
+.header ul li a:hover{
+    color: red;
+}
+.nav{
+    height: 80px;
+    background-color:#ffffff;
+ 
+}
+.nav img{
+    float: left;
+    margin-top: 30px;
+    margin-left: 90px;
+}
+.nav ul {
+    float: right;
+    margin-top: 32px;
+    margin-right: 104px;
+    
+}
+.nav ul li{
+    float: left;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.nav ul li a{  
+    padding-bottom: 7px;
+    text-decoration: none;
+    color: #7b7b7d;
+    font-size: 14px;
+}
+.nav ul li a:hover{
+    color: #000;
+    border-bottom: 2px solid #2bad6f;
+}
+.guild{
+    margin-top: 23px;
+    color: #787a79;
+    font-size: 14px; 
+}
+.guild span{
+    margin-left: 74px;
+}
+.main{
+    
+    width: 1204px;
+    height: 747px;
+    margin: 17px auto;
+    background-color:#f7f7f7;
+}
+.main img{
+    float: left;
+}
+.main .img2{
+    float: right;
+}
+
+.main .img1{
+    width: 783px;
+    margin-bottom: 23px;
+}
+.msg{
+    width: 1204px;
+    height: 24px;
+    margin: 0 auto;
+    margin-top: 70px;
+    margin-bottom: 25px;
+}
+.msg .msg1{
+    float: left;
+    height: 12px;
+    width: 470px;
+    border-bottom: 1px solid #e5e5e5;
+}
+.msg .msg2{
+    float: right;
+    height: 12px;
+    width: 470px;
+    border-bottom: 1px solid #e5e5e5;
+}
+.msg p{
+    float: left;
+    font-size: 20px;
+    margin-left: 70px;
+}
+.column span{
+    margin-right: 22px;
+    margin-left: 73px;
+    line-height: 17px;
+    color: #000;
+}
+.column {
+    color: #83827e;
+}
+.content{
+    width: 1204px;
+    height: 365px;
+    margin: 20px auto;
+    
+}
+.content li{
+    float: left;
+    width: 287px;
+    height: 365px;
+    background-color: #fff;
+    margin-right: 10px;
+    text-align: center;
+}
+.content li img{
+    margin-top: 60px;
+    width: 150px;
+    height: 180px;  
+}
+.content li .sj{
+    margin-top: 30px;
+    font-size: 15px;
+}
+.content li .banner{
+    margin-top:  6px;
+    font-size: 12px;
+    color: #afafaf;
+}
+#msg{
+    margin-top: 50px;
+}
+.shop{
+    width: 1190px;
+    margin: 0 auto;
+}
+.shop img:nth-child(1){
+    float: left;
+}
+.shop img:nth-child(2){
+    float: right;
+}
+
+section{
+    width: 1190px;
+    height: 178px;
+    margin: 170px auto 0px;
+
+    border-bottom: 1px solid #cfcfcf;
+}
+section ul {
+    float: left;
+    margin-right: 160px;
+}
+section ul li:first-child{
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+section ul li:nth-child(n+2){
+    font-size: 12px;
+    height: 28px;
+    line-height: 28px;
+    color:#353736;
+}
+section ul:last-child{
+    float: right;
+    margin-right: 0;
+}
+section ul:last-child li:nth-child(2){
+    font-size: 24px;
+    text-align: right;
+}
+section ul:last-child li:nth-child(3){
+    font-size: 14px;
+    text-align: right;
+}
+footer{
+    position: relative;
+    width: 1190px;
+    height: 52px;
+    margin: 0 auto;
+}
+footer span:nth-child(1){
+    position: absolute;
+    font-size: 12px;
+    top: 32px;
+}
+footer span:nth-child(3){
+   position: absolute;
+    top: 24px;
+    left: 460px;
+    width:24px ;
+    height: 25px;
+    background-image: url(imgs/icon-identification.png) ;
+}
+#partner{
+    left: 14px;
+    position: absolute;
+    font-size: 12px;
+    top: 30.5px;
+}
+footer ul li{
+    position: absolute;
+    top: 24px ;
+    right: 0;
+    width: 32px;
+    height: 32px;
+
+    border-radius: 16px;
+    background: url(imgs/weixin.png) -92px -7px;
+}
+footer ul li:nth-child(2){
+    right: 42px;
+background: url(imgs/weixin.png) -52px -7px;
+}
+footer ul li:nth-child(3){
+    right: 84px;  
+    background: url(imgs/weixin.png) -12px -7px;
+}
+footer div{
+    float: right;
+    margin-top: 32px;
+    margin-right: 120px;
+    font-size: 12px;
+    color: #7b7c77;
+}  
